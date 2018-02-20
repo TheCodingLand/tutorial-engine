@@ -76,7 +76,7 @@ class Header extends React.Component {
                     </Button>
                  {/* <Button className="loginButton" color="inherit">Login</Button> */}
                  <Button className="loginButton" color="inherit" href="https://github.com/TheCodingLand/tutorial-engine">
-               My GitHub
+               Source Code on GitHub
                 </Button>
                 </Toolbar>
 
