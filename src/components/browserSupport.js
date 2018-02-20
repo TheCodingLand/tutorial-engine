@@ -45,20 +45,20 @@ image : {url : "images/safari-preferences.jpg", height : 260, width : 318},
     text : "Dans ce menu, vous pouvez cliquer sur Adobe Reader, et cocher la cas pour l'activer. Ensuite, cliquez en face du site www.rcsl.lu, sur le mot \"Ask\" pour le changer en On. Si vous le souhaitez, vous pouvez aussi changer le comportement pour tous les autres sites web, avec l'option pour tous les sites web présente un peu plus bas.",
     image : {url : "images/safari-plugins.png", height : 610, width : 805},
     },
-    {
-        id:6,
-        date : "Internet Explorer",
-        title : "Si adobe est installé, tout devrait fonctionner automatiquement dans internet explorer",
-        text : "Si ce n'est pas le cas, il est possible qu'un autre lecteur pdf soit installé, et qu'il ait pris la place d'Adobe Reader.",
-        image : {url : "images/browsers/ie/ie.png", height : 250, width :500},
-        },
-        {
-            id:6,
-            date : "Autres probèmes de formulaire",
-            title : "En cas de message d'erreur lors du clic sur le bouton Sauvegarder ou Valider",
-            text : "Faites vérifier les paramètres de proxy par votre service informatique",
-            image : {url : "images/test.png", height : 1, width :500},
-            },
+{
+    id:6,
+    date : "Internet Explorer",
+    title : "Si adobe est installé, tout devrait fonctionner automatiquement dans internet explorer",
+    text : "Si ce n'est pas le cas, il est possible qu'un autre lecteur pdf soit installé, et qu'il ait pris la place d'Adobe Reader.",
+    image : {url : "images/browsers/ie/ie.png", height : 250, width :500},
+    },
+{
+    id:7,
+    date : "Autres probèmes de formulaire",
+    title : "En cas de message d'erreur lors du clic sur le bouton Sauvegarder ou Valider",
+    text : "Faites vérifier les paramètres de proxy par votre service informatique",
+    image : {url : "images/test.png", height : 1, width :500},
+    },
 ]
 
 // Le plus vieux calendrier lunaire ? Ces encoches pratiquées dans une plaquette en os de l'Abri Blanchard en Dordogne (-30'000) correspondraient au trajet de l'astre dans le ciel avec ses différentes phases.
