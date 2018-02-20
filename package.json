@@ -1,0 +1,33 @@
+{
+  "name": "universe-story",
+  "version": "0.1.0",
+  "homepage": "http://julien.tech/universe",
+  "private": true,
+  "dependencies": {
+    "core-js": "^2.5.3",
+    "firebase": "^4.10.0",
+    "material-ui": "^1.0.0-beta.33",
+    "material-ui-icons": "^1.0.0-beta.17",
+    "raf": "^3.4.0",
+    "react": "^16.2.0",
+    "react-background-video-player": "^1.0.1",
+    "react-browser-detection": "^1.0.5",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "react-youtube": "^7.5.0",
+    "redux": "^3.7.2",
+    "redux-localstorage": "^1.0.0-rc5",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^5.0.0",
+    "redux-thunk": "^2.2.0",
+    "typeface-roboto": "0.0.54"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
