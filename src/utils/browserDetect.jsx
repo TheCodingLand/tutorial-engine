@@ -10,7 +10,7 @@ class BrowserDetection extends React.Component {
                     || navigator.userAgent.indexOf(' OPR/') >= 0;
     const isFirefox = typeof InstallTrigger !== 'undefined';
     const isChrome = !!window.chrome && !!window.chrome.webstore;
-    const isAndroid = navigator.userAgent.indexOf("android") > -1;
+    const isAndroid = navigator.userAgent.indexOf("Android") > -1;
     const isSafari = !isChrome && navigator.userAgent.toLowerCase().indexOf('safari') !== -1;
     
     const isIE = /*@cc_on!@*/false || !!document.documentMode;
@@ -34,9 +34,8 @@ class BrowserDetection extends React.Component {
       browser = 'chrome';
     } else if (isBlink) {
       browser = 'blink';
-    } else if (isAndroid) {
-      browser = 'chrome';
-    } else {
+    }
+    else {
       browser = 'unknown';
     }
 
