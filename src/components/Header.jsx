@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom'
 import { bindActionCreators } from "redux"
 import { connect } from "react-redux"
 
-import BrowserDetection from 'react-browser-detection';
+import BrowserDetection from '../utils/browserDetect';
 
 const styles = theme => ({
     root: {
