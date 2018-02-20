@@ -33,7 +33,7 @@ const styles = theme => ({
 
 let browserHandler = {
     
-    default: (browser) => {return <img style={{height:'64px'}} src={'images/browsers/'+browser+'/'+browser+'.svg'} /> } ,
+    default: (browser) => {return <img height='64px' src={'images/browsers/'+browser+'/'+browser+'.png'} /> } ,
     
   }
 
