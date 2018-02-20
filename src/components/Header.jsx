@@ -9,7 +9,7 @@ import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'material-ui-icons/Menu';
 import { nextArticle, previousArticle } from '../actions/userActions'
 import articles from './articles'
-
+import { Link } from 'react-router-dom'
 import { bindActionCreators } from "redux"
 import { connect } from "react-redux"
 
@@ -74,7 +74,10 @@ class Header extends React.Component {
 
                         {this.props.user.progression === articles.length - 1 ? 'Finish' : 'Next'}
                     </Button>
-                    <Button className="loginButton" color="inherit">Login</Button>
+                 {/* <Button className="loginButton" color="inherit">Login</Button> */}
+                 <Button className="loginButton" color="inherit" href="https://github.com/TheCodingLand/tutorial-engine">
+               My GitHub
+                </Button>
                 </Toolbar>
 
             </AppBar>
