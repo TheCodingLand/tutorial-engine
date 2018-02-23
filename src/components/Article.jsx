@@ -21,7 +21,7 @@ const styles = theme => ({
   },
   media: {
     flex: 'grow',
-    height:'500px'
+    height:'800px'
   },
   actions: {
     display: 'flex',

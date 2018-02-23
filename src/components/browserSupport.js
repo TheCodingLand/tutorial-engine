@@ -19,7 +19,7 @@ image : {url : "images/saveas.jpg", height : 501, width : 637},
    date : "Google Chrome et Microsoft Edge - vérifiez que adobe est bien le gestionnaire PDF par défaut :",
    title : "Pour que le contournement de l'étape précédente fonctionne, il faut qu'Adobe soit le gestionnaire par défaut pour les fichiers PDF.",
    text : "Pour vérifier, allez dans les paramptres de windows, voir l'animation ci dessus.",
-   image : {url : "images/defaultpdfapp.gif", height : 1199, width : 859},
+   image : {url : "images/defaultpdfapp.gif", height :859 , width : 1199},
    },
 {
     id:3,
