@@ -24,12 +24,13 @@ class BrowserDetection extends React.Component {
       browser = 'firefox';
     } else if (isAndroid) {
         browser = 'chrome';
-    } else if (isSafari) {
+    } else if (isEdge) {
+      browser = 'edge';
+    }
+     else if (isSafari) {
       browser = 'safari';
     } else if (isIE) {
       browser = 'ie';
-    } else if (isEdge) {
-      browser = 'edge';
     } else if (isChrome) {
       browser = 'chrome';
     } else if (isBlink) {
