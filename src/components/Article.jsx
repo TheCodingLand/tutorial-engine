@@ -16,7 +16,7 @@ import { withStyles } from 'material-ui/styles'
 
 const styles = theme => ({
   card: {
-    maxWidth: "400px",
+    maxWidth: "800px",
 
   },
   media: {
@@ -64,7 +64,7 @@ class Article extends Component {
     console.log(this.props)
 
     return (
-      <Card style={{ maxWidth: this.props.article.image.width}} >
+      <Card style={{ maxWidth: this.props.article.image.width +100}} >
         <CardHeader onClick={() => this.props.setArticle(this.props.article.id)}
         
 
