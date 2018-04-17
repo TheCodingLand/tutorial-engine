@@ -1,7 +1,6 @@
 {
   "name": "tutorials",
   "version": "0.1.0",
-  "homepage": "http://julien.tech/help",
   "private": true,
   "dependencies": {
     "core-js": "^2.5.3",
